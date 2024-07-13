@@ -1,0 +1,63 @@
+.list_card_container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  width: 30%;
+  border-radius: 12px;
+  margin: 10px;
+}
+.list_image {
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  border-radius: 12px;
+}
+.text_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  width: 100%;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: white;
+}
+.details_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  padding: 5px;
+}
+.details {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+}
+.date {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: white;
+}
+.desc {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: white;
+}
+.view_btn {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  text-align: center;
+  background-color: white;
+}

@@ -1,0 +1,19 @@
+.cast_item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.image_size {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
